@@ -7,7 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
   },
   "dependencies": {
     "@antfu/eslint-config": "^5.0.0",
@@ -30,8 +33,10 @@
   "packageManager": "pnpm@10.10.0+sha1.f657bc37aa5e08da2ecff3877fe3bbb4b13703ba",
   "devDependencies": {
     "@nuxt/test-utils": "3.19.2",
+    "@pinia/testing": "^1.0.2",
     "@types/node": "^24.1.0",
     "@vue/test-utils": "^2.4.6",
+    "config": "link:@nuxt/test-utils/config",
     "happy-dom": "^18.0.1",
     "typescript": "^5.8.3",
     "vite-tsconfig-paths": "^5.1.4",
