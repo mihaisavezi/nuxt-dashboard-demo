@@ -1,4 +1,9 @@
-# Nuxt Minimal Starter
+# Nuxt Dashboard
+
+[![CI Pipeline](https://github.com/mihaisavezi/nuxt-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/mihaisavezi/nuxt-dashboard/actions/workflows/ci.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=your-project&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=your-project)
+[![Coverage](https://codecov.io/gh/mihaisavezi/nuxt-dashboard/branch/main/graph/badge.svg)](https://codecov.io/gh/mihaisavezi/nuxt-dashboard)
+
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
