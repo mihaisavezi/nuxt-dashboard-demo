@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^5.0.0",
+    "@nuxt/eslint": "1.7.1",
+    "@nuxt/image": "1.10.0",
+    "@nuxt/scripts": "0.11.10",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "@pinia/nuxt": "^0.11.2",
+    "@unhead/vue": "^2.0.12",
+    "@vueuse/core": "^13.6.0",
+    "eslint": "^9.32.0",
+    "nuxt": "^4.0.1",
+    "nuxt-auth-utils": "^0.5.20",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "zod": "^4.0.13"
+  },
+  "packageManager": "pnpm@10.10.0+sha1.f657bc37aa5e08da2ecff3877fe3bbb4b13703ba",
+  "devDependencies": {
+    "@nuxt/test-utils": "3.19.2",
+    "@types/node": "^24.1.0",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^18.0.1",
+    "typescript": "^5.8.3",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.4"
+  }
+}
