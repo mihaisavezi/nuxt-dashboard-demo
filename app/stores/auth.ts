@@ -1,9 +1,8 @@
 import { defineStore } from "pinia";
-import type { User } from "~/types"; // ✅ Fixed import path
 
 export const useAuthStore = defineStore("auth", () => {
   // Use Nuxt Auth Utils session - consistent with docs
-  const { session, loggedIn, fetch: refresh } = useUserSession(); // ✅ Added refresh
+  const { session, loggedIn, fetch: refresh } = useUserSession(); 
 
   // Computed properties with safe access
   const user = computed(() => session.value?.user || null);
@@ -19,7 +18,6 @@ export const useAuthStore = defineStore("auth", () => {
       });
 
       if (response.success) {
-        // ✅ Use proper refresh method from composable
         await refresh();
         return true;
       }
